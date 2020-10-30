@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+
+  .stores-container {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 68px 0;
+
+    .store-container {
+      margin: 0 40px;
+      text-align: left;
+      color: #969696;
+
+      .image {
+        height: 168px;
+        width: 168px;
+        background-color: #ececec;
+        margin-bottom: 10px;
+      }
+
+      .name {
+        color: black;
+        font-weight: 600;
+      }
+
+      button {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: #969696;
+      }
+    }
+  }
+}
